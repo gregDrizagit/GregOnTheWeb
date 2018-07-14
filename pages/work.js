@@ -4,10 +4,14 @@ import {
     Container
 } from 'semantic-ui-react'
 
+import Nav from '../components/Nav'
+
 const Work = () => {
-    <Container>
-        Greg Driza
-    </Container>
+    return(
+        <Container>
+            Work
+        </Container>
+    )
 }
 
 export default Work
