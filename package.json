@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "semantic-ui-react": "^0.82.0"
+  }
+}
