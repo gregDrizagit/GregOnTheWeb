@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -76,49 +76,124 @@ module.exports =
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__ = __webpack_require__("semantic-ui-react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_semantic_ui_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_semantic_ui_react__ = __webpack_require__("semantic-ui-react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_semantic_ui_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_semantic_ui_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_router__ = __webpack_require__("next/router");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_router___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_router__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react__);
 var _jsxFileName = "/Users/GregDriza/Documents/Independent/GregOnTheWeb/components/Nav.js";
 
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 
 
-var Nav = function Nav() {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Container"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
+
+
+
+var Nav =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Nav, _React$Component);
+
+  function Nav() {
+    var _ref;
+
+    var _temp, _this;
+
+    _classCallCheck(this, Nav);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Header"], {
-    as: "h2",
-    color: "grey",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
+
+    return _possibleConstructorReturn(_this, (_temp = _this = _possibleConstructorReturn(this, (_ref = Nav.__proto__ || Object.getPrototypeOf(Nav)).call.apply(_ref, [this].concat(args))), Object.defineProperty(_assertThisInitialized(_this), "state", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: {}
+    }), Object.defineProperty(_assertThisInitialized(_this), "handleItemClick", {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function value(e, _ref2) {
+        var name = _ref2.name;
+
+        _this.setState({
+          activeItem: name
+        });
+
+        __WEBPACK_IMPORTED_MODULE_2_next_router___default.a.push({
+          pathname: _this.state.activeItem
+        });
+      }
+    }), _temp));
+  }
+
+  _createClass(Nav, [{
+    key: "render",
+    value: function render() {
+      var activeItem = this.state.activeItem;
+      return __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_semantic_ui_react__["Container"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_semantic_ui_react__["Header"], {
+        as: "h2",
+        color: "grey",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        }
+      }, "Greg Driza - Software Engineer", __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_semantic_ui_react__["Header"].Subheader, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_semantic_ui_react__["Menu"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26
+        }
+      }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_semantic_ui_react__["Menu"].Item, {
+        name: "/about",
+        active: activeItem === 'about',
+        content: "About",
+        onClick: this.handleItemClick,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27
+        }
+      }), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_semantic_ui_react__["Menu"].Item, {
+        name: "/work",
+        active: activeItem === 'work',
+        content: "Work",
+        onClick: this.handleItemClick,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        }
+      })))));
     }
-  }, "Greg Driza - Software Engineer", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Header"].Subheader, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    }
-  }, "About"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
-    href: "/work",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, "Work"))));
-};
+  }]);
+
+  return Nav;
+}(__WEBPACK_IMPORTED_MODULE_3_react___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["a"] = (Nav);
 
@@ -145,14 +220,14 @@ var Work = function Work() {
       fileName: _jsxFileName,
       lineNumber: 11
     }
-  }, "Work");
+  }, "Work fdasfdsfdsafdasfdsafsda");
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Work);
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/work.js");
@@ -164,6 +239,13 @@ module.exports = __webpack_require__("./pages/work.js");
 /***/ (function(module, exports) {
 
 module.exports = require("next/link");
+
+/***/ }),
+
+/***/ "next/router":
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
 
 /***/ }),
 
