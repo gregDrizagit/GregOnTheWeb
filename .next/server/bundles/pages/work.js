@@ -209,7 +209,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__ = __webpack_require__("semantic-ui-react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_semantic_ui_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_Nav__ = __webpack_require__("./components/Nav.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_link__);
 var _jsxFileName = "/Users/GregDriza/Documents/Independent/GregOnTheWeb/pages/work.js";
+
 
 
 
@@ -220,7 +223,18 @@ var Work = function Work() {
       fileName: _jsxFileName,
       lineNumber: 11
     }
-  }, "Work fdasfdsfdsafdasfdsafsda");
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
+    href: "/publicdomainreader",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    }
+  }, "Public Domain Reader")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Work);
