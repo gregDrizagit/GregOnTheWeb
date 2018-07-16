@@ -1,7 +1,7 @@
 module.exports =
 __NEXT_REGISTER_PAGE('/work', function() {
           var comp =
-      webpackJsonp([6],{
+      webpackJsonp([7],{
 
 /***/ "./components/Nav.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -40938,7 +40938,7 @@ var Work = function Work() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 6:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/work.js");
@@ -40946,7 +40946,7 @@ module.exports = __webpack_require__("./pages/work.js");
 
 /***/ })
 
-},[5])
+},[6])
           return { page: comp.default }
         })
       ;

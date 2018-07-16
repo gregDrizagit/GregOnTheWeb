@@ -36,11 +36,13 @@ import React from 'react'
                 </Dimmer>
                 <Container>
                     <Segment basic>
+                    <p>
                         There is a large amount of data on the web that is accessible, but not necessarily usable. 
                         Project Gutenberg (https://www.gutenberg.org/) has been digitizing the vast body literature in the public domain since 1971. 
                         Project Gutenberg makes all the works availible in a number of digital formats, but doesn't provide a great interface for exploring 
                         or reading the materials online. This project seeks to address some of these issues using React.js, Ruby on Rails, and the Gutendex 
-                        API (https://github.com/garethbjohnson/gutendex).                        
+                        API (https://github.com/garethbjohnson/gutendex). 
+                    </p>                       
                     </Segment>
                     <Grid>
                         <Grid.Row>
@@ -48,17 +50,21 @@ import React from 'react'
                             <Image name="/static/pdr-gif-1.gif" onClick={this.handleShow} src={'/static/pdr-gif-1.gif'} size="huge" />
                         </Grid.Column>
                         <Grid.Column width={8}>
+                        <p>
                             Users land at a home page when they create an account. 
                             Here users can create collections of books, view books 
                             in their current collections, view the books other users 
                             are currently reading, and jump back into the last book they 
                             were reading.
+                        </p>
                         </Grid.Column>
                         </Grid.Row>
 
                         <Grid.Row>
                         <Grid.Column width={8}>
-                            User's collections are persisted across sessions. Collections can also be deleted.   
+                        <p>
+                            User's collections are persisted across sessions. Collections can also be deleted. 
+                        </p>  
                         </Grid.Column>
                         <Grid.Column width={8}>
                             <Image name="/static/pdr-gif-2.gif" onClick={this.handleShow} src={'/static/pdr-gif-2.gif'} size="huge" />
@@ -70,15 +76,19 @@ import React from 'react'
                             <Image name="/static/pdf-gif-3.gif" onClick={this.handleShow} src={'/static/pdf-gif-3.gif'} size="huge" />
                         </Grid.Column>
                         <Grid.Column width={8}>
-                            Users can look through pages of all the books in the database or browse by 
+                        <p>
+                            Users can look through pages of all 50,000+ of the books in the database or browse by 
                             category (subject, author, bookshelf). User's can view all the books in a given 
-                            category and read or add books to a collection.
+                            category and flip through books or add books to a collection.
+                        </p>
                         </Grid.Column>
                         </Grid.Row>
                         <Grid.Row>
                          <Grid.Column width={8}>
-                             You can quickly search through all categories containing a keywords. 
-                             You can also filter search results by category.
+                         <p>
+                            Users can quickly search all categories, books, authors, and subjects at the same time with a quick keyword search.
+                             Search results can be filtered by Author, Subject, Bookshelf, and Book. 
+                        </p>
                         </Grid.Column>
                         <Grid.Column width={8}>
                             <Image name="/static/pdr-gif-4.gif" onClick={this.handleShow} src={'/static/pdr-gif-4.gif'} size="huge" />
@@ -91,15 +101,19 @@ import React from 'react'
 
                         </Grid.Column>
                         <Grid.Column width={8}>
-                             You can quickly search through all categories containing a keywords. 
-                             You can also filter search results by Author, Subject, Bookshelf, and Title.
+                        <p>
+                            When the user selects a book, the book is returned from Gutendex in a massive HTML document. This is convenient for a number of reasons. 
+                            Since Project Gutenberg is largely a voluneer effort, every book is formatted a little differently. 
+                            We can use some simple Javascript to create consistent format across all books as well as provide the user with some controls to enhance the reading experience. 
+                        </p>
                         </Grid.Column>
                         </Grid.Row>
 
                         <Grid.Row>
                          <Grid.Column width={8}>
-                             You can quickly search through all categories containing a keywords. 
-                             You can also filter search results by category.
+                         <p>
+                            Inside the collapsable control panel are controls for site navigation, and text size adjustment. 
+                         </p>
                         </Grid.Column>
                         <Grid.Column width={8}>
                             <Image name="/static/pdr-gif-6.gif" onClick={this.handleShow} src={'/static/pdr-gif-6.gif'} size="huge" />
@@ -111,13 +125,40 @@ import React from 'react'
                             <Image name="/static/pdr-gif-7.gif" onClick={this.handleShow} src={'/static/pdr-gif-7.gif'} size="huge" />
                         </Grid.Column>
                         <Grid.Column width={8}>
-                             You can quickly search through all categories containing a keywords. 
-                             You can also filter search results by category.
+                        <p>
+                             Bookmarks can be placed in the text by clicking the paragraphs. This allows users to return to their place in the text over multiple sessions. 
+                        </p>
+                        </Grid.Column>
+                        </Grid.Row>
+
+                        <Grid.Row>
+                         <Grid.Column width={8}>
+                         <p>
+                            Users can also edit the CSS color properties of the HTML document to invert the colors for reading at night. 
+                        </p>
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                            <Image name="/static/pdr-gif-8.gif" onClick={this.handleShow} src={'/static/pdr-gif-8.gif'} size="huge" />
                         </Grid.Column>
                         </Grid.Row>
                     </Grid>
+                    <Segment basic>
+                    <p>
+                        The code for the frontend of this project can be found here:<br /> <a>https://github.com/gregDrizagit/PublicDomainReaderFrontEnd</a><br />
+                        The code for the backend can be found here:<br /> <a>https://github.com/gregDrizagit/PublicDomainReaderBackEnd</a>
+                    </p>
+                    </Segment>
                 </Container>
-            
+                <style jsx>
+                {
+                    `
+                        p{
+                            font-size: larger;
+                            font-family:"Lucida Console", Monaco, monospace;
+                        }
+                    `
+                }
+                </style>
             </div>
         )
     }
