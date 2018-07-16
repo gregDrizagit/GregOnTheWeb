@@ -126,14 +126,6 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./node_modules/next/link.js":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__("./node_modules/next/dist/lib/link.js")
-
-
-/***/ }),
-
 /***/ "./node_modules/semantic-ui-react/dist/es/collections/Grid/index.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -802,4 +794,4 @@ module.exports = __webpack_require__("./node_modules/next/dist/lib/link.js")
 /***/ })
 
 })
-//# sourceMappingURL=0.61b1993dabced091a4be.hot-update.js.map
+//# sourceMappingURL=0.5144fa20fa9ac820089e.hot-update.js.map

@@ -234,7 +234,18 @@ var Work = function Work() {
       fileName: _jsxFileName,
       lineNumber: 13
     }
-  }, "Public Domain Reader")));
+  }, "Public Domain Reader")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
+    href: "/departuretimes",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    }
+  }, "Departure Times - An Uber Code Challenge")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Work);

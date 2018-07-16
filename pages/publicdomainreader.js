@@ -7,8 +7,7 @@ import {
     Grid
 } from 'semantic-ui-react'; 
 import React from 'react'
-
-
+import Link from 'next/link'
  class PublicDomainReader extends React.Component {
      state = {
          activeImage:'', 
@@ -36,6 +35,7 @@ import React from 'react'
                 </Dimmer>
                 <Container>
                     <Segment basic>
+                    <h1>Public Domain Reader</h1>
                     <p>
                         There is a large amount of data on the web that is accessible, but not necessarily usable. 
                         Project Gutenberg (https://www.gutenberg.org/) has been digitizing the vast body literature in the public domain since 1971. 
@@ -147,12 +147,19 @@ import React from 'react'
                         The code for the frontend of this project can be found here:<br /> <a>https://github.com/gregDrizagit/PublicDomainReaderFrontEnd</a><br />
                         The code for the backend can be found here:<br /> <a>https://github.com/gregDrizagit/PublicDomainReaderBackEnd</a>
                     </p>
+                    <br />
+                    <p>
+                        <Link href="/work">
+                            <a>See my other projects </a>
+                        </Link>
+                    </p>
+
                     </Segment>
                 </Container>
                 <style jsx>
                 {
                     `
-                        p{
+                        p, h1{
                             font-size: larger;
                             font-family:"Lucida Console", Monaco, monospace;
                         }
