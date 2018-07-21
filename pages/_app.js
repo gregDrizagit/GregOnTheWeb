@@ -19,4 +19,7 @@ export default class MyApp extends App {
       <Component {...pageProps} />
     </Container>
   }
-}
+} 
+// "dev": "next",
+// "build": "next build",
+// "start": "next start",
