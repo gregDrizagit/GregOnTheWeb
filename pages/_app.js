@@ -20,6 +20,4 @@ export default class MyApp extends App {
     </Container>
   }
 } 
-// "dev": "next",
-// "build": "next build",
-// "start": "next start",
+
