@@ -35,14 +35,23 @@ import Link from 'next/link'
                 </Dimmer>
                 <Container>
                     <Segment basic>
-                    <h1>Public Domain Reader</h1>
+                    <h1>Public Domain Reader</h1><br />
                     <p>
                         There is a large amount of data on the web that is accessible, but not necessarily usable. 
                         Project Gutenberg (https://www.gutenberg.org/) has been digitizing the vast body literature in the public domain since 1971. 
                         Project Gutenberg makes all the works availible in a number of digital formats, but doesn't provide a great interface for exploring 
                         or reading the materials online. This project seeks to address some of these issues using React.js, Ruby on Rails, and the Gutendex 
                         API (https://github.com/garethbjohnson/gutendex). 
-                    </p>                       
+                    </p> 
+                    <h2>
+                        Technology: 
+                        <ul>
+                            <li>React.js</li>
+                            <li>Ruby on Rails</li>
+                            <li>Gutendex API</li>
+                            <li>MYSQL</li>
+                        </ul>
+                    </h2>                      
                     </Segment>
                     <Grid>
                         <Grid.Row>
@@ -159,7 +168,7 @@ import Link from 'next/link'
                 <style jsx>
                 {
                     `
-                        p, h1{
+                        p, h1, h2{
                             font-size: larger;
                             font-family:"Lucida Console", Monaco, monospace;
                         }

@@ -35,6 +35,54 @@ import Link from 'next/link'
                 </Dimmer>
                 <Container>
                    <h1>Departure Times</h1>
+                   <Grid>
+                        <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Image name="/static/dt-gif-1.gif" onClick={this.handleShow} src={'/static/dt-gif-1.gif'} size="huge" />
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                        <p>
+                            Users can search for any place with Google Autocomplete Places API. Search results are constrained
+                            San Francisco. 
+                        </p>
+                        </Grid.Column>
+                        </Grid.Row>
+
+                        <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Image name="/static/dt-gif-2.gif" onClick={this.handleShow} src={'/static/dt-gif-2.gif'} size="huge" />
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                        <p>
+                            Google returns the coordinates of the selected place. The 311 API provides for us the coordinate location of every 
+                            bus stop in California. Some <a href="https://en.wikipedia.org/wiki/Haversine_formula">math</a> 
+                            is used to filter out all of the stops that aren't within 0.5 miles of the selected location.
+                            The positions of the stops can be plotted on 
+                        </p>
+                        </Grid.Column>
+                        </Grid.Row>
+
+                        <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Image name="/static/dt-gif-3.gif" onClick={this.handleShow} src={'/static/dt-gif-3.gif'} size="huge" />
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                        <p>
+                            Stops are listed on the left-hand sidebar. They can be selected on the map or the sidebar.  
+                        </p>
+                        </Grid.Column>
+                        </Grid.Row>
+
+                         <Grid.Row>
+                        <Grid.Column width={8}>
+                            <Image name="/static/dt-gif-4.gif" onClick={this.handleShow} src={'/static/dt-gif-4.gif'} size="huge" />
+                        </Grid.Column>
+                        <Grid.Column width={8}>
+                        <p>
+                        </p>
+                        </Grid.Column>
+                        </Grid.Row>
+                    </Grid>
                 </Container>
                 <style jsx>
                 {
