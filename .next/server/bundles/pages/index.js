@@ -105,7 +105,7 @@ function () {
   return Api;
 }();
 
-/* harmony default export */ __webpack_exports__["a"] = (Api);
+/* unused harmony default export */ var _unused_webpack_default_export = (Api);
 
 /***/ }),
 
@@ -125,7 +125,7 @@ var _jsxFileName = "/Users/GregDriza/Documents/Independent/GregOnTheWeb/pages/in
 
 
 var Index = function Index() {
-  __WEBPACK_IMPORTED_MODULE_2__api__["a" /* default */].getMediumRSS();
+  // API.getMediumRSS()
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,

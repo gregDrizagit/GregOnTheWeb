@@ -6,9 +6,9 @@
     "heroku-postbuild": "next build"
   },
   "dependencies": {
-    "next": "^3.10.10",
     "es6-promise": "^4.2.4",
     "isomorphic-fetch": "^2.2.1",
+    "next": "^6.1.1",
     "semantic-ui-react": "^0.82.0"
   }
 }
