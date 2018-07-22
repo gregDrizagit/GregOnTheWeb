@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -96,16 +96,17 @@ function () {
   _createClass(Api, null, [{
     key: "getMediumRSS",
     value: function getMediumRSS() {
-      fetch('https://medium.com/feed/@gdriza').then(function (resp) {
-        return resp.json();
-      }).then(console.log);
+      var xmlAsJson;
+      return fetch('https://cors-anywhere.herokuapp.com/medium.com/feed/@gdriza').then(function (resp) {
+        return resp.text();
+      });
     }
   }]);
 
   return Api;
 }();
 
-/* unused harmony default export */ var _unused_webpack_default_export = (Api);
+/* harmony default export */ __webpack_exports__["a"] = (Api);
 
 /***/ }),
 
@@ -125,16 +126,15 @@ var _jsxFileName = "/Users/GregDriza/Documents/Independent/GregOnTheWeb/pages/in
 
 
 var Index = function Index() {
-  // API.getMediumRSS()
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     }
   }));
 };
@@ -143,7 +143,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");

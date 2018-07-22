@@ -6,7 +6,6 @@ import {
 } from 'semantic-ui-react'; 
 import API from '../api'
 const Index = () => { 
-    API.getMediumRSS()
     return(
         <div>
             <Container>
