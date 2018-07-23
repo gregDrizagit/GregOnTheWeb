@@ -1,7 +1,8 @@
 import React from 'react';
 import {
     Button,
-    Container
+    Container, 
+    Card
 
 } from 'semantic-ui-react'; 
 import API from '../api'
@@ -21,6 +22,8 @@ class Blog extends React.Component{
             this.setState({json: xml.rss.channel[0]})
             })
         })
+
+        console.log(json)
        
     }
 
@@ -33,10 +36,11 @@ class Blog extends React.Component{
     }
 
     render(){
-        console.log(this.state)
+        console.log(this.state.json)
         return(
             <div>
                 <Container>
+                    <Card.Group style={{padding: "20px"}} itemsPerRow={4}>
                     {
                         this.state.json ? 
 
@@ -44,7 +48,9 @@ class Blog extends React.Component{
                         :
                             null
                     }
+                    </Card.Group>
                 </Container>
+
             </div>
         )
     }

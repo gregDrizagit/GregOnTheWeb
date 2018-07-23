@@ -166,6 +166,8 @@ function (_React$Component) {
           lineNumber: 25
         }
       }, __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_semantic_ui_react__["Menu"], {
+        secondary: true,
+        pointing: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
@@ -187,6 +189,15 @@ function (_React$Component) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
+        }
+      }), __WEBPACK_IMPORTED_MODULE_3_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_semantic_ui_react__["Menu"].Item, {
+        name: "/blog",
+        active: activeItem === 'blog',
+        content: "Blog",
+        onClick: this.handleItemClick,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
         }
       })))));
     }

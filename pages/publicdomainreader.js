@@ -4,7 +4,8 @@ import {
     Image, 
     Dimmer,
     Segment,
-    Grid
+    Grid,
+    Icon
 } from 'semantic-ui-react'; 
 import React from 'react'
 import Link from 'next/link'
@@ -50,7 +51,13 @@ import Link from 'next/link'
                             <li>Ruby on Rails</li>
                             <li>Gutendex API</li>
                             <li>MYSQL</li>
+                            <li>Semantic React UI</li>
+
                         </ul>
+                        <a href="https://github.com/gregDrizagit/PublicDomainReaderFrontEnd">
+                            <Icon link size="huge" name='github' />
+                        </a>
+                        See the code for this project
                     </h2>                      
                     </Segment>
                     <Grid>
@@ -152,10 +159,7 @@ import Link from 'next/link'
                         </Grid.Row>
                     </Grid>
                     <Segment basic>
-                    <p>
-                        The code for the frontend of this project can be found here:<br /> <a>https://github.com/gregDrizagit/PublicDomainReaderFrontEnd</a><br />
-                        The code for the backend can be found here:<br /> <a>https://github.com/gregDrizagit/PublicDomainReaderBackEnd</a>
-                    </p>
+                    
                     <br />
                     <p>
                         <Link href="/work">

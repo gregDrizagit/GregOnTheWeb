@@ -2,26 +2,43 @@ import {
     Button,
     Container, 
     Card, 
-    Image
+    Image,
+    Item
 } from 'semantic-ui-react'; 
+
+
+const parseSubjects = (props) => {
+    let subjects = props.blog.category.map(item => {return <Item>{item}</Item> })
+    return subjects
+}
+{/* <Item.Group divided>
+{
+ parseSubjects(props)
+}
+</Item.Group>> */}
 
 const BlogCard = (props) => {
     return(
-        <Card>
-            <Card.Header>
-                {props.blog.pubDate[0]}
-            </Card.Header>
+        <Card style={{padding: '10px'}}>
+            <Card.Meta>
+                <p>Published: {new Date(props.blog.pubDate[0]).toLocaleDateString()}</p>
+            </Card.Meta>
             <Card.Description>
-                <h2>
-                    {props.blog.title[0]}
-                </h2>
+                <h3>
+                 {props.blog.title[0]}
+                </h3>
             </Card.Description>
-            <Card.Content>
-                <Button href={props.blog.link[0]} basic color='green'>
-                    Read
-                </Button>
-            </Card.Content>
-            
+            <style jsx>
+                {
+                    `
+                        p, h3{
+                            font-size: larger;
+                            font-family:"Lucida Console", Monaco, monospace;
+                        }
+                       
+                    `
+                }
+                </style>
         </Card>
     )
 }

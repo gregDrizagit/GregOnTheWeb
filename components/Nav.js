@@ -23,7 +23,7 @@ class Nav extends React.Component {
                 <Header as='h2' color='grey'>
                     Greg Driza - Software Engineer
                     <Header.Subheader>
-                        <Menu>
+                        <Menu secondary pointing>
                             <Menu.Item
                                 name='/about'
                                 active={activeItem === 'about'}
@@ -34,6 +34,12 @@ class Nav extends React.Component {
                                 name='/work'
                                 active={activeItem === 'work'}
                                 content='Work'
+                                onClick={this.handleItemClick}>
+                            </Menu.Item> 
+                            <Menu.Item
+                                name='/blog'
+                                active={activeItem === 'blog'}
+                                content='Blog'
                                 onClick={this.handleItemClick}>
                             </Menu.Item> 
                         </Menu>
