@@ -36,22 +36,18 @@ class Blog extends React.Component{
     }
 
     render(){
-        console.log(this.state.json)
         return(
-            <div>
-                <Container>
-                    <Card.Group style={{padding: "20px"}} itemsPerRow={4}>
-                    {
-                        this.state.json ? 
+            <Container>
+                <Card.Group style={{padding: "20px"}} itemsPerRow={4}>
+                {
+                    this.state.json ? 
 
-                            this.renderBlogCards()
-                        :
-                            null
-                    }
-                    </Card.Group>
-                </Container>
-
-            </div>
+                        this.renderBlogCards()
+                    :
+                        null
+                }
+                </Card.Group>
+            </Container>
         )
     }
 }

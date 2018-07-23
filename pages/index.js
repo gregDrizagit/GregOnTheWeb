@@ -10,9 +10,10 @@ const Index = () => {
         <div>
             <Container>
             </Container>
-       
+    
         </div>
-    )
+       
+    );
 }
 
 export default Index

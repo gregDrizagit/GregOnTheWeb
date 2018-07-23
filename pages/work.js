@@ -20,6 +20,11 @@ const Work = () => {
                         <a>Departure Times - An Uber Code Challenge</a>
                     </Link>
                 </li>
+                <li>
+                    <Link href="/spotifyclone">
+                        <a>Spotify Clone</a>
+                    </Link>
+                </li>
             </ul>
         </Container>
     )
