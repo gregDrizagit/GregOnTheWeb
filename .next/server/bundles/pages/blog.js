@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -208,10 +208,11 @@ function (_React$Component) {
       value: function value() {
         var blogCards = _this.props.blogs.item.map(function (item) {
           return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_BlogCard__["a" /* default */], {
+            key: Math.floor(Math.random() * 1000),
             blog: item,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 18
+              lineNumber: 19
             }
           });
         });
@@ -227,7 +228,7 @@ function (_React$Component) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 27
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Card"].Group, {
         style: {
@@ -236,9 +237,16 @@ function (_React$Component) {
         itemsPerRow: 4,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         }
-      }, this.props.blogs ? this.renderBlogCards() : null));
+      }, this.props.blogs ? this.renderBlogCards() : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Loader"], {
+        active: true,
+        inline: "centered",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        }
+      })));
     }
   }]);
 
@@ -249,7 +257,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/blog.js");

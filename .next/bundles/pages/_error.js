@@ -275,7 +275,7 @@ module.exports = __webpack_require__("./node_modules/next/dist/lib/error.js")
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./node_modules/next/dist/pages/_error.js");
@@ -283,7 +283,7 @@ module.exports = __webpack_require__("./node_modules/next/dist/pages/_error.js")
 
 /***/ })
 
-},[3])
+},[5])
           return { page: comp.default }
         })
       ;

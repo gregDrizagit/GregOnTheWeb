@@ -2,7 +2,8 @@ import React from 'react';
 import {
     Button,
     Container, 
-    Card
+    Card,
+    Loader
 
 } from 'semantic-ui-react'; 
 import BlogCard from '../components/BlogCard'
@@ -15,7 +16,7 @@ class Blog extends React.Component{
     
     renderBlogCards = () => {
        let blogCards = this.props.blogs.item.map(item => {
-            return( <BlogCard blog={item} />)
+            return( <BlogCard key={Math.floor(Math.random() * 1000)} blog={item} />)
         })
 
         return blogCards
@@ -30,7 +31,7 @@ class Blog extends React.Component{
 
                         this.renderBlogCards()
                     :
-                        null
+                    <Loader active inline='centered' />
                 }
                 </Card.Group>
             </Container>

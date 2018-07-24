@@ -1802,7 +1802,7 @@ function (_Document) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/_document.js");
@@ -1810,7 +1810,7 @@ module.exports = __webpack_require__("./pages/_document.js");
 
 /***/ })
 
-},[2])
+},[4])
           return { page: comp.default }
         })
       ;

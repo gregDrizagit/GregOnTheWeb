@@ -1,7 +1,7 @@
 module.exports =
 __NEXT_REGISTER_PAGE('/blog', function() {
           var comp =
-      webpackJsonp([7],{
+      webpackJsonp([6],{
 
 /***/ "./components/BlogCard.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -19,7 +19,7 @@ var _jsxFileName = "/Users/GregDriza/Documents/Independent/GregOnTheWeb/componen
 
 var parseSubjects = function parseSubjects(props) {
   var subjects = props.blog.category.map(function (item) {
-    return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["h" /* Item */], {
+    return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_semantic_ui_react__["e" /* Item */], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 12
@@ -17296,7 +17296,7 @@ util.inherits = __webpack_require__("./node_modules/inherits/inherits_browser.js
 /*</replacement>*/
 
 /*<replacement>*/
-var debugUtil = __webpack_require__(7);
+var debugUtil = __webpack_require__(2);
 var debug = void 0;
 if (debugUtil && debugUtil.debuglog) {
   debug = debugUtil.debuglog('stream');
@@ -19173,7 +19173,7 @@ Writable.prototype._destroy = function (err, cb) {
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Buffer = __webpack_require__("./node_modules/safe-buffer/index.js").Buffer;
-var util = __webpack_require__(8);
+var util = __webpack_require__(3);
 
 function copyBuffer(src, target, offset) {
   src.copy(target, offset);
@@ -30066,7 +30066,7 @@ Loader.propTypes =  true ? {
   /** Loaders can have different sizes. */
   size: __WEBPACK_IMPORTED_MODULE_2_prop_types___default.a.oneOf(__WEBPACK_IMPORTED_MODULE_4__lib__["b" /* SUI */].SIZES)
 } : {};
-/* unused harmony default export */ var _unused_webpack_default_export = (Loader);
+/* harmony default export */ __webpack_exports__["a"] = (Loader);
 
 /***/ }),
 
@@ -30075,7 +30075,7 @@ Loader.propTypes =  true ? {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Loader__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Loader/Loader.js");
-/* unused harmony reexport default */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__Loader__["a"]; });
 
 
 
@@ -30531,7 +30531,7 @@ SegmentGroup.propTypes =  true ? {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Segment__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Segment/Segment.js");
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__Segment__["a"]; });
+/* unused harmony reexport default */
 
 
 
@@ -31132,13 +31132,13 @@ StepTitle.create = Object(__WEBPACK_IMPORTED_MODULE_4__lib__["l" /* createShorth
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__collections_Form_FormTextArea__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/collections/Form/FormTextArea.js");
 /* unused harmony reexport FormTextArea */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__collections_Grid__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/collections/Grid/index.js");
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_26__collections_Grid__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_26__collections_Grid__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__collections_Grid_GridColumn__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/collections/Grid/GridColumn.js");
 /* unused harmony reexport GridColumn */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__collections_Grid_GridRow__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/collections/Grid/GridRow.js");
 /* unused harmony reexport GridRow */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__collections_Menu__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/collections/Menu/index.js");
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_29__collections_Menu__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_29__collections_Menu__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__collections_Menu_MenuHeader__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/collections/Menu/MenuHeader.js");
 /* unused harmony reexport MenuHeader */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__collections_Menu_MenuItem__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/collections/Menu/MenuItem.js");
@@ -31184,17 +31184,17 @@ StepTitle.create = Object(__WEBPACK_IMPORTED_MODULE_4__lib__["l" /* createShorth
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__elements_Flag__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Flag/index.js");
 /* unused harmony reexport Flag */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__elements_Header__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Header/index.js");
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_52__elements_Header__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_52__elements_Header__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__elements_Header_HeaderContent__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Header/HeaderContent.js");
 /* unused harmony reexport HeaderContent */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__elements_Header_HeaderSubheader__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Header/HeaderSubheader.js");
 /* unused harmony reexport HeaderSubheader */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__elements_Icon__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Icon/index.js");
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_55__elements_Icon__["a"]; });
+/* unused harmony reexport Icon */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__elements_Icon_IconGroup__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Icon/IconGroup.js");
 /* unused harmony reexport IconGroup */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__elements_Image__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Image/index.js");
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_57__elements_Image__["a"]; });
+/* unused harmony reexport Image */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__elements_Image_ImageGroup__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Image/ImageGroup.js");
 /* unused harmony reexport ImageGroup */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__elements_Input__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Input/index.js");
@@ -31220,7 +31220,7 @@ StepTitle.create = Object(__WEBPACK_IMPORTED_MODULE_4__lib__["l" /* createShorth
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__elements_List_ListList__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/List/ListList.js");
 /* unused harmony reexport ListList */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__elements_Loader__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Loader/index.js");
-/* unused harmony reexport Loader */
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_70__elements_Loader__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__elements_Rail__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Rail/index.js");
 /* unused harmony reexport Rail */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__elements_Reveal__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Reveal/index.js");
@@ -31228,7 +31228,7 @@ StepTitle.create = Object(__WEBPACK_IMPORTED_MODULE_4__lib__["l" /* createShorth
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__elements_Reveal_RevealContent__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Reveal/RevealContent.js");
 /* unused harmony reexport RevealContent */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__elements_Segment__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Segment/index.js");
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_74__elements_Segment__["a"]; });
+/* unused harmony reexport Segment */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__elements_Segment_SegmentGroup__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Segment/SegmentGroup.js");
 /* unused harmony reexport SegmentGroup */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__elements_Step__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/elements/Step/index.js");
@@ -31254,7 +31254,7 @@ StepTitle.create = Object(__WEBPACK_IMPORTED_MODULE_4__lib__["l" /* createShorth
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__modules_Checkbox__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/modules/Checkbox/index.js");
 /* unused harmony reexport Checkbox */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_87__modules_Dimmer__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/modules/Dimmer/index.js");
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_87__modules_Dimmer__["a"]; });
+/* unused harmony reexport Dimmer */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_88__modules_Dimmer_DimmerDimmable__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/modules/Dimmer/DimmerDimmable.js");
 /* unused harmony reexport DimmerDimmable */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_89__modules_Dimmer_DimmerInner__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/modules/Dimmer/DimmerInner.js");
@@ -31372,7 +31372,7 @@ StepTitle.create = Object(__WEBPACK_IMPORTED_MODULE_4__lib__["l" /* createShorth
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_145__views_Feed_FeedUser__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/views/Feed/FeedUser.js");
 /* unused harmony reexport FeedUser */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_146__views_Item__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/views/Item/index.js");
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_146__views_Item__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_146__views_Item__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_147__views_Item_ItemContent__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/views/Item/ItemContent.js");
 /* unused harmony reexport ItemContent */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_148__views_Item_ItemDescription__ = __webpack_require__("./node_modules/semantic-ui-react/dist/es/views/Item/ItemDescription.js");
@@ -51706,10 +51706,11 @@ function (_React$Component) {
       value: function value() {
         var blogCards = _this.props.blogs.item.map(function (item) {
           return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_BlogCard__["a" /* default */], {
+            key: Math.floor(Math.random() * 1000),
             blog: item,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 18
+              lineNumber: 19
             }
           });
         });
@@ -51725,7 +51726,7 @@ function (_React$Component) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["b" /* Container */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 27
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["a" /* Card */].Group, {
         style: {
@@ -51734,9 +51735,16 @@ function (_React$Component) {
         itemsPerRow: 4,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         }
-      }, this.props.blogs ? this.renderBlogCards() : null));
+      }, this.props.blogs ? this.renderBlogCards() : __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["f" /* Loader */], {
+        active: true,
+        inline: "centered",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        }
+      })));
     }
   }]);
 
@@ -51766,29 +51774,29 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 2:
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 3:
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 7:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/blog.js");
 
 
-/***/ }),
-
-/***/ 7:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
-/***/ 8:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
 /***/ })
 
-},[6])
+},[7])
           return { page: comp.default }
         })
       ;
