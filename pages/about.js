@@ -32,7 +32,7 @@ class About extends React.Component {
                     </Grid.Column>
                     <Grid.Column width={8}>
                     <p>
-                    
+                        Greg is a software engineer and musician living in Brooklyn NY
                     </p>
                     </Grid.Column>
                     </Grid.Row>

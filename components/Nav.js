@@ -20,15 +20,16 @@ class Nav extends React.Component {
         return(
 
             <Container>
-                <Header as='h2' color='grey'>
-                    Greg Driza - Software Engineer
+                <Header color='grey'>
+                    <h2>Greg Driza - Software Engineer</h2>
                     <Header.Subheader>
-                        <Menu secondary pointing>
+                        <Menu style={{fontFamily:"Lucida Console, Monaco, monospace"}} secondary pointing>
                             <Menu.Item
                                 name='/about'
                                 active={activeItem === 'about'}
                                 content='About'
                                 onClick={this.handleItemClick}>
+                                
                             </Menu.Item> 
                             <Menu.Item
                                 name='/work'
@@ -45,6 +46,13 @@ class Nav extends React.Component {
                         </Menu>
                     </Header.Subheader>
                 </Header>
+                <style jsx>{
+                    `
+                    h2{
+                        font-family:"Lucida Console", Monaco, monospace;
+                      }
+                    `
+                    }</style>
             </Container>
         )
     }
