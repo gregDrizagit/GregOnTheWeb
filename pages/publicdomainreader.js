@@ -128,7 +128,7 @@ import Link from 'next/link'
                         <Grid.Row>
                          <Grid.Column width={8}>
                          <p>
-                            Inside the collapsable control panel are controls for site navigation, and text size adjustment. 
+                            Inside the collapsible control panel are controls for site navigation, and text size adjustment. 
                          </p>
                         </Grid.Column>
                         <Grid.Column width={8}>

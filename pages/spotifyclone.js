@@ -64,7 +64,7 @@ import Link from 'next/link'
                         </Grid.Column>
                         <Grid.Column width={8}>
                         <p>
-                            Users can connect to their Spotify account. On the home page they will see Spotify's collection of 
+                            Users can connect to their Spotify account. On the home page, they will see Spotify's collection of 
                             of featured music as well as a list of the most recent songs they've played on Spotify. 
                         </p>
                         </Grid.Column>

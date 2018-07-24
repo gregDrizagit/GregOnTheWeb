@@ -81,8 +81,8 @@ import Link from 'next/link'
                         <p>
                             Google returns the coordinates of the selected place. The 311 API provides for us the coordinate location of every 
                             bus stop in California. Some <a href="https://en.wikipedia.org/wiki/Haversine_formula">math</a> 
-                            is used to filter out all of the stops that aren't within 0.5 miles of the selected location.
-                            The positions of the stops can be plotted on the map with google maps API. 
+                             is used to filter out all of the stops that aren't within 0.5 miles of the selected location.
+                            The positions of the stops can be plotted on the map with Google Maps API. 
                         </p>
                         </Grid.Column>
                         </Grid.Row>

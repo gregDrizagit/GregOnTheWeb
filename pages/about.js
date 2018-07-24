@@ -10,7 +10,7 @@ import Nav from '../components/Nav'
 class About extends React.Component {
 
     state = {
-        resume: 'static/GregResume3.pdf'
+        resume: 'static/GregResume4.pdf'
     }
 
     render(){
