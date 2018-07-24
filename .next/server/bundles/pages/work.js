@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -246,69 +246,121 @@ var Work = function Work() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Container"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 13
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"].Group, {
+    style: {
+      fontFamily: "Lucida Console, Monaco, monospace",
+      padding: "20px"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
     href: "/publicdomainreader",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     }
-  }, "Public Domain Reader"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"].Header, {
+    as: "a",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
+    }
+  }, "Public Domain Reader"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"].Meta, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    }
+  }, "Winter 2018"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"].Description, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    }
+  }, "An browser E-Reader and interface to 50,000+ books in the public domain.")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
     href: "/departuretimes",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 31
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 32
     }
-  }, "Departure Times - An Uber Code Challenge"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"].Header, {
+    as: "a",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 33
+    }
+  }, "Departure Times"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"].Meta, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    }
+  }, "Spring 2018"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"].Description, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    }
+  }, "An Uber code challenge solution.")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3_next_link___default.a, {
-    href: "/spotifyclone",
+    href: "spotifyclone",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 44
     }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 45
     }
-  }, "Spotify Clone")))));
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"].Header, {
+    as: "a",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    }
+  }, "Spotify Clone"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"].Meta, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    }
+  }, "Spring 2018"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_semantic_ui_react__["Item"].Description, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    }
+  }, "A reskinning of the popular music streaming service Spotify."))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Work);
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/work.js");

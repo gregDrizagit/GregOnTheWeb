@@ -3,7 +3,8 @@ import {
     Button,
     Container, 
     Card,
-    Loader
+    Loader,
+    Icon
 
 } from 'semantic-ui-react'; 
 import BlogCard from '../components/BlogCard'
@@ -25,6 +26,7 @@ class Blog extends React.Component{
     render(){
        return(
             <Container>
+                <h1>Articles from <a href="https://medium.com/@gdriza">@gdriza</a> via Medium RSS: </h1>
                 <Card.Group style={{padding: "20px"}} itemsPerRow={4}>
                 {
                     this.props.blogs ? 
@@ -34,7 +36,20 @@ class Blog extends React.Component{
                     <Loader active inline='centered' />
                 }
                 </Card.Group>
+                <style jsx>
+                {
+                    `
+                        h1{
+                            font-size: larger;
+                            font-family:"Lucida Console", Monaco, monospace;
+                            padding:20px;
+                        }
+                    
+                    `
+                }
+            </style>
             </Container>
+         
         )
     }
 }

@@ -16,7 +16,7 @@ class About extends React.Component {
     render(){
         return(
             <Container>
-                <Grid>
+                <Grid style={{padding:'20px'}}>
                     <Grid.Row>
                     <Grid.Column width={8}>
                         <h1>Education:</h1>
@@ -32,7 +32,9 @@ class About extends React.Component {
                     </Grid.Column>
                     <Grid.Column width={8}>
                     <p>
-                        Greg is a software engineer and musician living in Brooklyn NY
+                        Greg is a software engineer and musician in Brooklyn NY. 
+
+                        
                     </p>
                     </Grid.Column>
                     </Grid.Row>
