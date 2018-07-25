@@ -34,7 +34,7 @@ class Nav extends React.Component {
                             <Menu.Item
                                 name='/work'
                                 active={activeItem === 'work'}
-                                content='Work'
+                                content='Projects'
                                 onClick={this.handleItemClick}>
                             </Menu.Item> 
                             <Menu.Item
